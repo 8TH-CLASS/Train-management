@@ -4,7 +4,6 @@ public class User {
     private String contact ;
     private String Fullname ;
 
-
     public String getUsername() {
         return username;
     }
