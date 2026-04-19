@@ -1,0 +1,52 @@
+public class User {
+    private String username ;
+    private String password ;
+    private String contact ;
+    private String Fullname ;
+
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getFullname() {
+        return Fullname;
+    }
+
+    public void setFullname(String fullname) {
+        Fullname = fullname;
+    }
+
+
+    public User(String username, String password, String contact, String fullname) {
+        this.username = username;
+        this.password = password;
+        this.contact = contact;
+        this.Fullname = fullname;
+    }
+
+    @Override
+    public String toString() {
+        return Fullname + "{" + username + "}";
+    }
+}
