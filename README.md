@@ -24,7 +24,7 @@ Features
 
 Project Structure
 
-- Main.java → Entry point of the application  
+- Master.java → Entry point of the application  
 - Train / Station / Booking classes → Core models  
 - Supporting logic for search and booking flow  
 
